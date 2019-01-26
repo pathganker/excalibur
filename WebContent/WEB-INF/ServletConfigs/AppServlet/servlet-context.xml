@@ -14,8 +14,9 @@
 		<context:include-filter type="annotation"
 			expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
-	<!-- 默认的注解映射的支持 -->
+	<!--  -->
 	<mvc:annotation-driven>
+    <!-- fastjson -->
 		<mvc:message-converters>
 			<bean
 				class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
